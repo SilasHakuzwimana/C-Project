@@ -15,7 +15,7 @@ cout << "\n";
 cout << " " << board[0] << " | " << board[1] << " | " << board[2] << "\n"; 
 cout << "---+---+---\n"; 
 cout << " " << board[3] << " | " << board[4] << " | " << board[5] << "\n"; 
-cout << "---+---+---\n"; 
+cout << "---+---+---\n";
 cout << " " << board[6] << " | " << board[7] << " | " << board[8] << "\n"; 
 cout << "\n"; 
 } 
@@ -102,7 +102,7 @@ int main() {
                 } 
                 gameOver = true; 
             } else if (result == "tie") { 
-                cout << "It's a tie!\n"; 
+                cout << "It's a tie!\n";
                 ties++; 
                 gameOver = true; 
             } else { 
@@ -115,7 +115,7 @@ char choice;
 cout << "Do you want to play again? (y/n): "; 
 cin >> choice; 
 playAgain = (choice == 'y' || choice == 'Y');
-} 
+}
 cout << "Thanks " << name <<" for playing Tic-Tac-Toe! Goodbye!\n";
 return 0;
 }
