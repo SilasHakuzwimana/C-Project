@@ -4,14 +4,17 @@
 #include <ctime>  
 #include <iostream>  
 #include <string>  
-#include <vector>  
-// define maximum number of incorrect attempts  
+#include <vector>
+
+// define maximum number of incorrect attempts
+
 #define MAX_ATTEMPTS 6  
-using namespace std;  
+using namespace std;
 // main class  
 class HangmanGame {  
-public:  
-// constructor to ini
+public:
+
+// constructor to initialise the game.
  HangmanGame()  
  {  
   srand(static_cast<unsigned int>(time(nullptr)));  
