@@ -134,15 +134,19 @@ int main() {
         cout << "Do you want to play again? (y/n): ";
         cin >> choice;
         playAgain = (choice == 'y' || choice == 'Y');
+        cout<<"\n\n";
     }
 
     // Determine the overall winner
     if (scorePlayer1 > scorePlayer2) {
-        cout << "Thanks for playing Tic-Tac-Toe, " << player1 << "! You're the overall winner! Goodbye!\n";
+        cout << "Well done, " << player1 << "! You are the Tic-Tac-Toe champion! 🎉\n";
+        cout << "Thank you both for playing. We hope you enjoyed the game. Goodbye!\n";
     } else if (scorePlayer2 > scorePlayer1) {
-        cout << "Thanks for playing Tic-Tac-Toe, " << player2 << "! You're the overall winner! Goodbye!\n";
+        cout << "Well done, " << player2 << "! You are the Tic-Tac-Toe champion! 🎉\n";
+        cout << "Thank you both for playing. We hope you enjoyed the game. Goodbye!\n";
     } else {
-        cout << "Thanks for playing Tic-Tac-Toe! It's a tie overall! Goodbye!\n";
+        cout << "It's a tie! Both of you played really well. 🤝\n";
+        cout << "Thank you for playing Tic-Tac-Toe. We hope to see you again. Goodbye!\n";
     }
 
     return 0;
